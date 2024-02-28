@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#open-modal {
+    width: 70px;
+    height: 40px;
+    left: 10px;
+}
+.big-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+
+    background-color: rgb(130, 106, 152);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    margin: 10px;
+    width: 30%;
+    padding: 5% 0 ;
+}
+.card p{
+    margin-bottom: 10px;
+}
+.card button {
+    width: 40%;
+    height: 50%;
+}
+.card p{
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: bisque;
+}
